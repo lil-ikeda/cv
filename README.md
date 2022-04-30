@@ -6,27 +6,29 @@
 | 氏名 | 池田尚仁 |
 | 居住地 | 東京都 |
 | Twitter | [@lilikeda](https://twitter.com/lilikeda) |
-| YouTube | [SPAS CURRY](https://www.youtube.com/channel/UCFU046tVjWJNgh5iIMbekxw) （チャンネル登録1万人超。スパイスカレーのチャンネルを運営） |
-| ポートフォリオ | [reserve-system](https://github.com/lil-ikeda/reserve-system) （イベント予約システム。PHP, Vue.jsで制作）|
 
 ## 概要
-- PHP/Laravelを利用したサーバーサイド開発をメインに経験
 - 新卒から7年半ほど営業職として従事したのち、2020年5月よりwebエンジニアとしてのキャリアをスタート
 - サーバーサイド開発を主軸に、AWSインフラ構築、リードエンジニアポジションでのプロジェクト管理などを経験
+| 在籍期間 | 会社名 |
+----|----|
+| 2008年4月 - 2019年12月 | 株式会社ジュピターテレコム（営業職） |
+| 2020年5月 - 2021年8月 | アルサーガパートナーズ株式会社（エンジニア職） |
+| 2021年9月 - 現在 | 株式会社toridori（エンジニア職） |
 
 ## スキル
 以下実務にて数ヶ月間使用した技術です。
 ### 言語
-PHP | JavaScript
+Go | Ruby | PHP | TypeScript | JavaScript
 
 ### フレームワーク等
-Laravel | Vue.js | JQuery | nuxt.js |
+Ruby on Rails | Laravel | Vue.js | JQuery | Nuxt.js |
 
 ### RDB/NoSQL
-MySQL | Redis
+MySQL | Redis | MongoDB
 
 ### クラウド（AWS）
-VPC | S3 | Cloud Front | ELB | EC2 | ECS | Route53 | IAM | RDS(MySQL) | Aurora | ElastiCache(Redis) | Cloud Watch | SystemsManager
+VPC | S3 | CloudFront | ELB | EC2 | ECS | Route53 | IAM | RDS | ElastiCache(Redis) | CloudWatch | SystemsManager | SecretsManager | Lambda | ApiGateway | CloudFormation
 
 ### クラウド（TencentCloud）
 Cloud Object Strage | API Gateway | Serverless Cloud Function | Content Delivery Network
@@ -38,6 +40,40 @@ GitHub | GitHubActions
 Terraform | Docker | Nginx | Webpack | SASS
 
 ## 主な業務経歴
+#### 期間
+2021年9月〜現在
+
+### 概要
+インフルエンサーマーケティング用マッチングサービスの開発。主に以下3つのサービスのバックエンド実装、インフラ実装・メンテナンスを担当。
+- インフルエンサー向けのスマホアプリ
+- 広告主向けのウェブアプリ
+- 社内スタッフ向けのウェブアプリ
+
+#### 担当業務
+- バックエンドの保守改修
+- インフラ環境のメンテナンス
+  - DBへの接続数過多、メモリの使用量過多が起きている原因調査と改修
+  - RDSなどのAWSサービスのバージョンアップ対応
+- AWS SAMを使ったマイクロサービスの設計・実装
+  - プッシュ通知一斉送信用サービス
+  - ワードクラウド定期実行サービス
+- インターン生への技術指導（主にAWSサービスについて）
+#### 習得スキル
+- Ruby on Rails
+- Go
+- TypeScript
+- CloudFormation
+- スクラム開発
+- マイクロサービスの運用
+
+#### 開発環境
+Linux | MySQL | Ruby on Rails | Go | TypeScript | GitHub
+
+#### 役割/規模
+バックエンドエンジニア / 8人
+
+<hr>
+
 #### 期間
 2021年2月〜2021年8月
 
